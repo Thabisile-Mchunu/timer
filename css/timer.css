@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #261e1e;
+}
+
+.timer-container {
+    font-family: cursive;
+    text-align: center;
+    background-color: #bb77ac;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2a1322;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #47195e;
+}
+
+#pause, #continue, #stop {
+    display: none; /* Hide Pause, Continue, and Stop buttons initially */
+}
